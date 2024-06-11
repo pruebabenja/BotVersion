@@ -11,8 +11,8 @@ global.botnumber = ""
 
 global.owner = [
   ['51936732723', '𝐂𝐑𝐄𝐀𝐃𝐎𝐑 ✅', true],
+  ['56942318827', '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ ✅', true],
   ['51936732723', '𝐒𝐎𝐏𝐎𝐑𝐓𝐄 ✅', true],
-  ['51936732723', '𝐇𝐘𝐏𝐄𝐑𝐗 ✅', true],
   ['', '', true],
   ['', '', true],
   ['', '', true],
@@ -35,12 +35,12 @@ global.owner = [
 global.suittag = ['51936732723'];
 global.prems = ['51936732723'];
 
-global.packname = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
-global.author = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
-global.wm = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
-global.titulowm = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
-global.titulowm2 = `𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿`
-global.igfg = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
+global.packname = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
+global.author = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
+global.wm = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
+global.titulowm = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
+global.titulowm2 = `❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞`
+global.igfg = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
 global.wait = '𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐𝑿 ✅';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -61,9 +61,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ HyperXBot`;
-global.gt = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
-global.mysticbot = '𝑩𝒐𝒕 𝑯𝒚𝒑𝒆𝒓𝑿';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞`;
+global.gt = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
+global.mysticbot = '❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞';
 global.md = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
 global.mysticbot = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
 global.canalbot = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
