@@ -18,12 +18,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━•💌 𝙓𝙞𝙖𝘽𝙤𝙩-𝙋𝙧𝙤 💌•━━━━┓
+    const str = `┏━━━━•💌 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 💌•━━━━┓
 ┃╭─────────♡─────────╮
 ┃┊•🔮¡𝙃𝙊𝙇𝘼! @${m.sender.split`@`[0]}
 ┃╰─────────♡─────────╯
 ┃┊•🔮𝘾𝙍𝙀𝘼𝘿𝙊𝙍/𝘼 
-┃┊•🔮 wa.me/59897246324
+┃┊•🔮 wa.me/51936732723
+┣▶🔮 wa.me/56942318827
 ┃┊•🔮𝙑𝙀𝙍𝙎𝙄𝙊𝙉 𝘿𝙀𝙇 𝘽𝙊𝙏: 𝟹.𝟸.𝟷
 ┃┊•🔮𝙁𝙀𝘾𝙃𝘼: ${date}
 ┃┊•🔮𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏: ${uptime}                                            
@@ -144,7 +145,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '🔮 𝙀𝙡 𝙢𝙚𝙣𝙪 𝙩𝙞𝙚𝙣𝙚 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧 𝙮 𝙣𝙤 𝙛𝙪𝙚 𝙥𝙤𝙨𝙞𝙗𝙡𝙚 𝙚𝙣𝙫𝙞𝙖𝙧𝙡𝙤 𝙥𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙧𝙚𝙥𝙤𝙧𝙩𝙚𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙘𝙤𝙣 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤\n\n.𝘳𝘦𝘱𝘰𝘳𝘵𝘦 <𝘵𝘦𝘹𝘵𝘰>', m);
   }
 };
-handler.command = /^(Menuff9|menuff9|comandosff9)$/i;
+handler.command = /^(Menuff|menuff|comandosff)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
