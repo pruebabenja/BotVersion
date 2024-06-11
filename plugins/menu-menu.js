@@ -21,12 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━▶🚀 𝑴𝒆𝒏𝒖 𝑯𝒚𝒑𝒆𝒓𝑿 🚀◀━━━━┓
+    const str = `┏━━━━▶🚀 𝑴𝒆𝒏𝒖 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 🚀◀━━━━┓
 ╔════════════════════╗
 ┣▶🔮¡𝙃𝙊𝙇𝘼! @${m.sender.split`@`[0]}
 ║
 ┣▶🔮𝘾𝙍𝙀𝘼𝘿𝙊𝙍 🚀
-┣▶🔮 wa.me/59897246324
+┣▶🔮 wa.me/51936732723
+┣▶🔮 wa.me/56942318827
 ┣▶🔮𝙑𝙀𝙍𝙎𝙄𝙊𝙉 𝘿𝙀𝙇 𝘽𝙊𝙏: 𝟹.𝟸.𝟷
 ┣▶🔮𝙁𝙀𝘾𝙃𝘼: ${date}
 ┣▶🔮𝙉𝙄𝙑𝙀𝙇: ${level}
