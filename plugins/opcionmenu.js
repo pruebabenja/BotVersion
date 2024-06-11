@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━┓
 ┣ *🧸❤️‍🩹❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
 ┣ 
-┣ 🚀𝑷𝒐𝒓𝒇𝒂𝒗𝒐𝒓 𝒖𝒔𝒂 𝒍𝒐𝒔 𝒔𝒊𝒈𝒖𝒊𝒆𝒏𝒕𝒆𝒔 𝒄𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝒑𝒂𝒓𝒂 𝒗𝒆𝒓 𝒕𝒐𝒅𝒐𝒔 𝒍𝒐𝒔 𝒎𝒆𝒏𝒖𝒔 𝒅𝒆 𝑯𝒚𝒑𝒆𝒓𝑿:
+┣ 🚀𝑷𝒐𝒓𝒇𝒂𝒗𝒐𝒓 𝒖𝒔𝒂 𝒍𝒐𝒔 𝒔𝒊𝒈𝒖𝒊𝒆𝒏𝒕𝒆𝒔 𝒄𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝒑𝒂𝒓𝒂 𝒗𝒆𝒓 𝒕𝒐𝒅𝒐𝒔 𝒍𝒐𝒔 𝒎𝒆𝒏𝒖𝒔 𝒅𝒆 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞:
 ┣ ✅.menutotal
 ┗━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
