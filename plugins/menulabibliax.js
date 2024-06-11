@@ -21,11 +21,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `     ┣ *𝑴𝑬𝑵𝑼 𝑯𝒀𝑷𝑬𝑹𝑿* ┫
+    const str = `     ┣ *𝑴𝑬𝑵𝑼 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞* ┫
 ┏━━━━━━━━━━━┓
-┣ *🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
+┣ *🧸❤️‍🩹❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
 ┣ 
-┣ 🚀𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑯𝒚𝒑𝒆𝒓𝑿 𝑮𝒓𝒖𝒑𝒐𝒔:
+┣ 🚀𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝑮𝒓𝒖𝒑𝒐𝒔:
 ┣ ✅.pack
 ┣ ✅.pack2
 ┣ ✅.pack3
