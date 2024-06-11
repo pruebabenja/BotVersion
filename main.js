@@ -541,7 +541,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🚀 𝑯𝒚𝒑𝒆𝒓𝑿 𝑩𝒐𝒕 𝑨𝒄𝒕𝒊𝒗𝒐 | 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 +51 936732723 ${uptime}`;
+  const bio = `🚀 ❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ | 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 +51 936732723 ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
