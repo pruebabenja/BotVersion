@@ -19,25 +19,25 @@ export async function before(m, {conn, participants}) {
   const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt1 = `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 𝒖𝒏 𝒏𝒖𝒆𝒗𝒐 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐*\n\n`;
-    txt1 += `*𝑪𝒉𝒂𝒕 𝑮𝒓𝒖𝒑𝒂𝒍* ${groupName}\n`;
+    let txt1 = `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 𝒖𝒏 𝒏𝒖𝒆𝒗𝒐 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐*\n\n`;
+    txt1 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
-      txt1 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒃𝒊𝒆𝒏𝒗𝒆𝒏𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt1 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒃𝒊𝒆𝒏𝒗𝒆𝒏𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
       txt1 += `*𝑨𝒈𝒓𝒆𝒈𝒂𝒅𝒐 𝒑𝒐𝒓:* @${m.sender.split`@`[0]}`;
     } else {
-      txt1 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒃𝒊𝒆𝒏𝒗𝒆𝒏𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt1 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒃𝒊𝒆𝒏𝒗𝒆𝒏𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: img, caption: txt1, mentions: mentionsContentM}, {quoted: fkontak2});
   }
 
   if (chat.detect2 && m.messageStubType == 28) {
-    let txt2 = `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 𝒒𝒖𝒆 𝒔𝒆 𝒔𝒂𝒍𝒊𝒐 𝒖𝒏 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐*\n\n`;
-    txt2 += `*𝑪𝒉𝒂𝒕 𝑮𝒓𝒖𝒑𝒂𝒍* ${groupName}\n`;
+    let txt2 = `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 𝒒𝒖𝒆 𝒔𝒆 𝒔𝒂𝒍𝒊𝒐 𝒖𝒏 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐*\n\n`;
+    txt2 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
-      txt2 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt2 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
       txt2 += `*𝑬𝒍𝒊𝒎𝒂𝒏𝒅𝒐 𝒑𝒐𝒓:* @${m.sender.split`@`[0]}`;
     } else {
-      txt2 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt2 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: img, caption: txt2, mentions: mentionsContentM}, {quoted: fkontak2});
   }
@@ -49,13 +49,13 @@ export async function before(m, {conn, participants}) {
     } else {
       ax = '𝑺𝒆 𝒆𝒍𝒊𝒎𝒊𝒏𝒐';
     }
-    let txt3 = `𝑯𝒚𝒑𝒆𝒓𝑿 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 ${ax} 𝒖𝒏 𝒏𝒖𝒆𝒗𝒐 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐.\n\n`;
+    let txt3 = `❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒅𝒆𝒕𝒆𝒄𝒕𝒐 ${ax} 𝒖𝒏 𝒏𝒖𝒆𝒗𝒐 𝒎𝒊𝒆𝒎𝒃𝒓𝒐 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐.\n\n`;
     txt3 += `*𝑪𝒉𝒂𝒕 𝑮𝒓𝒖𝒑𝒂𝒍* ${groupName}\n`;
     if (ax === 'eliminado') {
-      txt3 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
       txt3 += `*𝑬𝒍𝒊𝒎𝒂𝒏𝒅𝒐 𝒑𝒐𝒓:* @${m.sender.split`@`[0]}`;
     } else {
-      txt3 += `*𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `*❘❚  𝗕 ͟ ͟ ͟ ㉀𝗧〘E⎯ XCLUS!VE〙❞ 𝒕𝒆 𝒅𝒂 𝒍𝒂 𝒄𝒐𝒓𝒅𝒊𝒂𝒍 𝒅𝒆𝒔𝒑𝒆𝒅𝒊𝒅𝒂* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: img, caption: txt3, mentions: mentionsContentM}, {quoted: fkontak2});
   }
